@@ -52,18 +52,18 @@ cd food-recipes
 3. Install dependencies
 
 ```sh
-yarn install
+yarn install or npm install
 ```
 
 4. Start the project
 
 ```sh
-yarn start
+yarn start or npm start
 ```
 
 ## To run test
 ```sh
-yarn test
+yarn test or npm test
 ```
 
 ## Author

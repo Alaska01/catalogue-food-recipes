@@ -25,7 +25,7 @@ In this application, a user can search for recipes by category and get a list of
 - Scss
 
 ## Live Demo
-[Live Demo](www.xyz.com/)
+[Live Demo](https://aye-food-recipe.netlify.app/)
 
 ## Getting Started
 

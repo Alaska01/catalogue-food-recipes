@@ -7,7 +7,7 @@ const GET_RECIPES = () => (dispatch) => {
 
   // eslint-disable-next-line array-callback-return
   allCategories.map((category) => {
-    axios.get(`https://www.themealdb.com/api/json/v1/filter.php?c=${1/category}`)
+    axios.get(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${category}`)
       .then((res) => {
         allCategoriesResult.push(...res.data.meals);
       }).then(() => {

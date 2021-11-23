@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { GET_RECIPE, CLEAR_DATA } from '../actions/index';
-// import '../assets/styles/RecipeItem.scss';
+import '../assets/styles/RecipeItem.scss';
 
 function RecipeItem({
   location, getRecipe, clearData, recipe,

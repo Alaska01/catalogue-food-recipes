@@ -1,19 +1,11 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import RecipesList from '../containers/RecipesList';
-import RecipeItem from './RecipeItem';
-import '../assets/styles/index.css';
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="app panel-bg">
-        <Routes>
-          <Route exact path="/" element={<RecipesList />} />
-          <Route path="/recipe/:id" element={<RecipeItem />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <div>
+      <h1>Reconfiguring Project After Persistent errors for days</h1>
+    </div>
   );
 }
 

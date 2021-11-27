@@ -11,7 +11,7 @@ const NavBar = () => (
       </div>
       <header>
         <Link className="heading" to="/" onClick={() => MealList()}>
-          <h1>CHOP-LIFE KITCHEN</h1>
+          <h1>Delicious Yummy Kitchen</h1>
         </Link>
       </header>
       <div>

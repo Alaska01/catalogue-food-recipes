@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router';
 import { categories } from '../Redux/Actions/mealActions';
 import Loading from '../components/Loading';
+import '../styles/Details.css';
 
 const MealDetails = () => {
   const details = useSelector((state) => state.setcategory.detail.meals);

@@ -5,6 +5,7 @@ import Loading from '../components/Loading';
 import { setMeals, changeFilter } from '../Redux/Actions/mealActions';
 import Meal from '../components/Meal';
 import filters from '../components/filterArray';
+import '../styles/MealList.css';
 import CategoryFilter from '../components/CategoryFilter';
 
 const MealList = () => {

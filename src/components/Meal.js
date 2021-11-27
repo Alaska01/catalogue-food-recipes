@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import '../styles/Meal.css';
 
 const Meal = ({ id, name, image }) => (
   <div className="meal-card " data-testid="meal-card" key={id}>

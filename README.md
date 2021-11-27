@@ -27,6 +27,10 @@ In this application, a user can search for recipes by category and get a list of
 ## Live Demo
 [Live Demo](https://aye-food-recipe.netlify.app/)
 
+## Video Demo
+[Video 1](https://www.loom.com/share/8447d24e9fba4236849eb72a9122ff26)
+[Video 1](https://www.loom.com/share/efd2a36631b447bab0c248aca5609216)
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.

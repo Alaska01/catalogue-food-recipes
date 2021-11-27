@@ -8,7 +8,7 @@ describe('Category Reducer', () => {
     expect(newState).toEqual({ detail: [] });
   });
 
-  it('Should return default state', () => {
+  it('Should not return default state', () => {
     const newState = reducer(undefined, {});
     expect(newState).not.toEqual(undefined);
   });

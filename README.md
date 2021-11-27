@@ -29,7 +29,8 @@ In this application, a user can search for recipes by category and get a list of
 
 ## Video Demo
 [Video 1](https://www.loom.com/share/8447d24e9fba4236849eb72a9122ff26)
-[Video 2](https://www.loom.com/share/efd2a36631b447bab0c248aca5609216)
+[React Redux](https://www.loom.com/share/f3304f2f7ba447be8909d62b967a0b13)
+[SPA](https://www.loom.com/share/dfacb57a9ec0484b815c3e3cf44c208a)
 
 ## Getting Started
 

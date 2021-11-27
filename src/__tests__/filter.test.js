@@ -9,7 +9,12 @@ describe('Category Reducer', () => {
     expect(newState).toEqual('All');
   });
 
-  it('Should return default state', () => {
+  it('Should not return default state', () => {
+    const newState = reducer('Beef', {});
+    expect(newState).not.toEqual('All');
+  });
+
+  it('The default state should not be undefined', () => {
     const newState = reducer('All', {});
     expect(newState).not.toEqual(undefined);
   });
@@ -21,5 +26,14 @@ describe('Category Reducer', () => {
     });
 
     expect(newState).not.toEqual(null);
+  });
+
+  it('Should return undefined if no action was selected', () => {
+    const newState = reducer('', {
+      type: actionTypes.CHANGE_FILTER,
+      payload: filter,
+    });
+
+    expect(newState).toEqual(undefined);
   });
 });

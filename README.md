@@ -66,6 +66,8 @@ yarn start or npm start
 yarn test or npm test
 ```
 
+![screenshot](./src/testreact.png)
+
 ## Author
 
 👤 **Aye Daniel Asoo**
